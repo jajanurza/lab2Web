@@ -1,130 +1,37 @@
-PENJELASAN DARI TAHAP-TAHAP PRAKTIKUM
+nama : jaja nurjaman
+nim  : 311910083
+kelas : TI.19.B1
 
-Pertama mrmbuat folder untuk menyimpan file/project
+Jawaban :
 
-1. Membuat dokumen HTML 
-Buatlah dokumen HTML seperti berikut:
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Dasar</title>
-</head>
+1. Berikut hasil eksperimen Web Pribadi
+![image](https://user-images.githubusercontent.com/81528179/113609222-b069dd00-9675-11eb-88b3-141ad8833872.png)
+2. Perbedaanya yaitu h1 = semua h1 yang ada di dalam dokumen sedangkan #intro h1 = semua h1 yg ada khusus didalam elmen dengan id intro
+3. CSS internal : diletakkan di dalam bagian head pada halaman. Class dan ID bisa digunakan untuk merujuk pada kode CSS,
+![image](https://user-images.githubusercontent.com/81528179/113612845-8d8df780-967a-11eb-837a-a2052fe60dd3.png)
 
-<body>
-    <header>
-        <h1>CSS Internal dan <i>Inline CSS</i></h1>
-    </header>
-    <nav>
-        <a href="lab2_css_dasar.html">CSS Dasar</a>
-        <a href="lab2_css_eksternal.html">CSS Eksternal</a>
-        <a  href="lab2_tag_dasar.html">HTML Dasar</a>
-    </nav>
-   
-  
-    <!--CSS ID Selector-->
-    <div id="intro"> 
-        <h1>Hello World</h1>
-        <p></pstyle>>kami sedang belajar HTML dan CSS dasar, pada matakualiah <b>Pemograman Web</b> di 
-        <i>Universitas Pelita Bangsa</i>. pelajaran pertama kami dapat adalah membuat tampilan web sederhana
-        dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
-        <!--css Class Selector-->
-        <a class="button btn-primary" href="#intro">Informasi selengkapnya</a>
-    </div>
-</body>
-</html>
+CSS Eksternal : CSS yang ditulis terpisah dengan kode HTML Eksternal CSS ditulis di sebuah file khusus yang berekstensi .css.
 
-Selanjutnya buka pada brwoser untuk melihat hasilnya dari kodingan yang telah di masukan
+![image](https://user-images.githubusercontent.com/81528179/113612507-240de900-967a-11eb-88c0-2ab983a8c3cd.png)
+![image](https://user-images.githubusercontent.com/81528179/113612589-3ee05d80-967a-11eb-814e-ff873d27bc36.png)
+Inline CSS : CSS yang ditulis langsung pada atribut elemen HTML. Setiap elemen HTML memiliki atribut style, di situ lah inline CSS ditulis.
+![image](https://user-images.githubusercontent.com/81528179/113613041-d5ad1a00-967a-11eb-84cc-a5eaf78192a8.png)
+ID berfungsi untuk menentukan identitas unik suatu elemen. Jadi nilai yang diberikan haruslah unik, unik di sini artinya kita tidak diizinkan membuat lebih dari satu id dengan nilai yang sama. Sedangkang Class berfungsi untuk menentukan nama class dari suatu elemen. Berbeda dengan id yang bersifat unik, class diperbolehkan untuk digunakan oleh lebih dari satu elemen yang ditandainya
+![image](https://user-images.githubusercontent.com/81528179/113613317-405e5580-967b-11eb-9f6c-d0bdd74119ef.png)
+dan hasilnya di browser seperti ini :
+![image](https://user-images.githubusercontent.com/81528179/113613618-ae0a8180-967b-11eb-988a-3ee65d461f87.png)
 
-2. Mendeklarasikan CSS Internal 
-Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen.
-<head>
-    <title>CSS Dasar</title>
-    <style>
-        body {
-            font-family: Open sans', sans-serif;
-        }
-        header {
-            min-height: 80px;
-            border-bottom: 1px solid #77CCEF;
-        }
-        h1 {
-            font-size: 24px;
-            color: #0F189F;
-            text-align: center;
-            padding: 20px 10px;
-        }
-        h1 i {
-            color: #6d6a6b;
-        }
-    </style>
-</head>
-selanjutnya simpan dan refresh browser dan lihat hasilnya
 
-3. Menambahkan Inline CSS 
-Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
-  
-<p style="text-align: center; color: #ccd8e4;">
-  
- Simpan kembali dan refresh kembali browser untuk melihat perubahannya.
- 
- 4. Membuat CSS Eksternal 
-Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut:
 
-nav {
-    background: #20A759;
-    color: #fff;
-    padding: 10px;
-}
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-nav a.active,
-nav a:hover {
-    background: #0B6B3A;
-}
 
-Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>
-  
- <head>
-    <!--menyisipkan css eksternal-->
-    <link rel="stylesheet" href="style_eksternal.css" type="text/css">
-</head>
 
-Selanjutnya refresh kembali browser untuk melihat perubahannya.
 
-5. Menambahkan CSS Selector 
-Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, 
 
-/* ID Selector */
-#intro {
-    background: #418fb1;
-    border: 1p solid #099249;
-    min-height: 100px;
-    padding: 10px;
-}
-#intro h1 {
-    text-align: left;
-    border: 0;
-    color: #fff;
-}
 
-/* class Selector */
-.button {
-    padding: 15px 20px;
-    background: #bebcbd;
-    color: #fff;
-    display: inline-block;
-    margin: 10px;
-    text-decoration: none;
-}
-.btn-primary {
-    background: #E42A42;
-}
 
-Kemudian simpan kembali dan refresh browser untuk melihat perubahannya pada browser.
 
- 
+
+
+
+
+
