@@ -127,7 +127,4 @@ Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada fil
 
 Kemudian simpan kembali dan refresh browser untuk melihat perubahannya pada browser.
 
-  
-  
-
-
+ 
