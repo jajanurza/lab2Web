@@ -4,7 +4,7 @@ nim  : 311910083
 
 kelas : TI.19.B1
 
-Jawaban :
+
 
 1. Berikut hasil eksperimen Web Pribadi
 
