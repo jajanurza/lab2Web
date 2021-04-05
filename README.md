@@ -7,7 +7,10 @@ kelas : TI.19.B1
 Jawaban :
 
 1. Berikut hasil eksperimen Web Pribadi
+
 ![image](https://user-images.githubusercontent.com/81528179/113609222-b069dd00-9675-11eb-88b3-141ad8833872.png)
+
+
 2. Perbedaanya yaitu h1 = semua h1 yang ada di dalam dokumen sedangkan #intro h1 = semua h1 yg ada khusus didalam elmen dengan id intro
 3. CSS internal : diletakkan di dalam bagian head pada halaman. Class dan ID bisa digunakan untuk merujuk pada kode CSS,
 
