@@ -12,6 +12,8 @@ Jawaban :
 3. CSS internal : diletakkan di dalam bagian head pada halaman. Class dan ID bisa digunakan untuk merujuk pada kode CSS,
 
 
+
+
 ![image](https://user-images.githubusercontent.com/81528179/113612845-8d8df780-967a-11eb-837a-a2052fe60dd3.png)
 
 CSS Eksternal : CSS yang ditulis terpisah dengan kode HTML Eksternal CSS ditulis di sebuah file khusus yang berekstensi .css.
